@@ -11,9 +11,9 @@
 void main() {
   print ("dart is fun");
 
-  Print("5 * 5 = ${multiply()}"); 
+  Print ("5 * 5 = ${multiply()}"); 
 }
 
 int multiply(){
-
+  return 5 * 5 
 }
