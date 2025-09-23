@@ -58,3 +58,5 @@ num luaslingkaran(num r){
 
 //arrow function
 num kelilinglingkaran(num r) => 2 * pi * r;
+
+num luaspersegi(num sisi) => sisi * sisi;
