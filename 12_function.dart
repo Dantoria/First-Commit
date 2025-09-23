@@ -15,9 +15,10 @@ void main(List<String> args) {
    */
   birthday();
   birthday2('jose', 'altuve', 29);
-  birthday3('Jose', age: 25, weight: 55.4, );
+  birthday3('Warner', age: 25, weight: 55.4, );
   birthday3('Purdy', height: 185.2);
   birthday3('Pearsall', weight: 88.2);
+  ("luas lingkaran: ${luaslingkaran(10)}");
 
   /**
    * for function with optional parameter
@@ -44,3 +45,16 @@ void birthday3(String name, {
   print("""
 HBD $name, yang ke $age, beratmu $weight, tinggimu $height""");
 }
+
+/**
+ * arrow function dan function with return value
+ */
+
+const pi = 3.14; // variable global
+
+num luaslingkaran(num r){
+  return 3.14 * r * r;
+}
+
+//arrow function
+num kelilinglingkaran(num r) => 2 * pi * r;
