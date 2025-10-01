@@ -6,9 +6,6 @@
    */
 
 
-void buymeal(String? favoritefood){
-  print('i bought a $favoritefood');
-}
 
 /**
  * 1. ubah parameternya agar jadi null
@@ -17,14 +14,17 @@ void buymeal(String? favoritefood){
 void main(List<String> args) {
   String? favoritefood = 'ayam roket';
 
-  buymeal(favoritefood);
+  buymeal(favoritefood!);
 }
 
+/**
+ * jika variable favoritefood nya tidak null 
+ * maka outputnya yang didalam else
+ * saya membeli bakso
+ * vice versa
+ */
+
 void buymeal(String? favoritefood){
-  if (favoritefood == null) {
-  print('saya membeli roket chicken');  
-  } else {
-    print('saya membeli bakso pentol gosong firja');
-  }
+  print('saya membeli makanan $favoritefood');
 }
 
