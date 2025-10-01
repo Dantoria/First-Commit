@@ -33,5 +33,19 @@ void main(List<String> args) {
       break;
     default:
       print('operator tidak valid');
+ 
   }
+
+  /** 
+   * buatkan hari senin-jum'at itu kerja
+   * kalo sabtu minggu libur
+   * 
+   * tidak sensitive case, kalo sensitive itu harus betul2 sama (identik)
+   * 
+   * buatkan pengecekan kendaraan
+   * 1 kapal
+   * 2 mobil
+   * 3 motor
+   * 4 gk tau
+   */
 }
