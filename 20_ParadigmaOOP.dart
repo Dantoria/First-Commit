@@ -36,13 +36,38 @@ void main(List<String> args) {
    * secara langsung tapi melalui method
    * 
    */
+
+  /**
+   * 2. abstraksi
+   * juga bisa dibilang penerapan alami
+   * berarti sebuah objek high level
+   * 
+   * misal kita tahu ucup makan, namun kita tidak perlu dalam tubuh ucup 
+   */
+
+  /**
+   * 3. inheritacen
+   * beberapa objek memiliki karakteristik yang sama
+   * 
+   * namun, bukan objek yang sama
+   * 
+   * maka ucup adah objek turunan
+   * (subclass) mewarisi induknya
+   */
+
+  /**
+   * polymorphism
+   * objek dapat memiliki banyak bentuk
+   * 
+   * ucup dan vlad bisa gerak, tapi tentu mereka geraknya beda
+   */
   
   var ucup = Manusia('kuning langsat', '67');
 }
   class Manusia {
   
   String warnakulit = '';
-  double beratbadan = '';
+  String beratbadan = '';
 
 Manusia(this.warnakulit, this.beratbadan);
 
