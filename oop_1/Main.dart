@@ -25,5 +25,10 @@ void main(List<String> args) {
    * attack, heal
    */
 
-  var Hewan = hewan('ucup', 'Black', 3.2);
+  var Hewan1 = 
+      hewan('ucup', 'Black', 3.2);
+       ..name = 'vladimir'
+       ..color = 'red'
+       ..eat();
+  
 }
