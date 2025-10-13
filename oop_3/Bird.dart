@@ -1,7 +1,7 @@
 import '../oop_1/constructor.dart';
 import 'Hewan.dart';
 
-class Bird extends hewan{
+/**class Bird extends hewan{
   String? feathercolor;
 
   Bird(
@@ -14,6 +14,4 @@ class Bird extends hewan{
 
   void fly() {
     print('''
-\n ini nama burungku = $name)
-  }
-}
+\n ini nama burungku = $name)*/

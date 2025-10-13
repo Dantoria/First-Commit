@@ -2,7 +2,7 @@ import 'animal.dart';
 import 'constructor.dart';
 import 'plants.dart';
 
-void main(List<String> args) {
+/**void main(List<String> args) {
   var cat = Animal();
   var mushroom = Plants('fungi', 'mashrom', 'white', 20.1);
   
@@ -31,4 +31,4 @@ void main(List<String> args) {
        ..color = 'red'
        ..eat();
   
-}
+}*/

@@ -1,6 +1,6 @@
 import 'Animal.dart';
 import 'Bird.dart';
-void main(List<String> args) {
+/**void main(List<String> args) {
   
   /**
    * abstract
@@ -18,4 +18,4 @@ void main(List<String> args) {
   var BirdUcup = 
   Bird('ucup', 2.0, age, feathercolor)
 
-}
+}*/

@@ -17,7 +17,7 @@
 // map=> berupa key:value
 // dynamic = campuran / tipe apapun=> [1, 'a', {"nama_kota" : "jakarta"}]
 
-void main(List<String> args) {
+/*void main(List<String> args) {
   string nama = "Damian";
   int age = "21";
 

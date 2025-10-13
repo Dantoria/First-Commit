@@ -14,6 +14,6 @@ void main() {
   Print ("5 * 5 = ${multiply()}"); 
 }
 
-int multiply(){
+/*int multiply(){
   return 5 * 5 
 }

@@ -1,5 +1,5 @@
 import 'Hewan.dart';
 
-class fish extends Hewan {
+/**class fish extends Hewan {
   
-}
+}*/
